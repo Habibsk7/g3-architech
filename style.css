@@ -5,6 +5,15 @@
     font-family: "Work Sans", sans-serif;
 
 }
+.btn-primary{
+    font-size: 18xpx;
+    padding: 15px 20px;
+    color: aliceblue;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
 
 header{
     background-color: antiquewhite;
@@ -35,4 +44,21 @@ nav> ul> li> a{
     font-weight: 500;
     font-size: 1 rem;
 
+}
+
+.banner-content{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-weight: 600;
+    font-size: 50px;
+    
+}
+.banner-description{
+    margin: 20px 0;
+}
+.banner img{
+    width: 100%;
 }
