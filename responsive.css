@@ -17,6 +17,23 @@
     .banner-title{
         font-size: 25px;
     }
+
+    .team-container{
+        flex-direction: column;
+    }
+    .team-image-container{
+        grid-template-columns: 1fr;
+    
+    }
+
+    .team-content{
+        padding: 0 50px 0 75px;
+    }
+
+
+
+
+
 }
 
 @media screen and (min-width: 577px) and (max-width: 996px) {
@@ -24,5 +41,12 @@
     background-color: antiquewhite;
     padding: 40px 150px;
 }
-    
-} 
+nav{
+    flex-direction: column;
+}
+
+.team-container{
+    flex-direction: column;
+    padding: 0 100px;
+}
+}

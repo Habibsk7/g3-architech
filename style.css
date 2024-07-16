@@ -17,7 +17,7 @@
 
 header{
     background-color: antiquewhite;
-    padding: 40px 240px;
+    padding: 40px 140px;
 
 }
 nav{
@@ -62,3 +62,45 @@ nav> ul> li> a{
 .banner img{
     width: 100%;
 }
+/*Main section style */
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    
+}
+.team-title{
+    font-size: 2rem;
+    line-height: 3rem;
+    /* font-weight: 500; */
+    
+}
+.quick-list{
+    color: gray;
+    font-weight:500;
+
+}
+.of-Our{
+    color: black;
+    font-weight: 800;
+}
+.text-features {
+    color: orange;
+    font-weight: 800;
+}
+.team-description{
+    color: gray;
+    margin: 10px;
+}
+
