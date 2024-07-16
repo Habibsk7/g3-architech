@@ -30,6 +30,20 @@
         padding: 0 50px 0 75px;
     }
 
+    /* fact responsive for smaller device */
+    .facts{
+        max-width: 80%;
+        margin: auto;
+    }
+    .fact-description{
+        width: 90%;
+    }
+    .fact-card-container{
+        grid-template-columns: 1fr;
+    }
+    .fact-card-container .card{
+        margin-bottom: 5%;
+    }
 
 
 
@@ -48,5 +62,18 @@ nav{
 .team-container{
     flex-direction: column;
     padding: 0 100px;
+}
+
+/* fact for medium */
+.facts{
+    margin: 5% 10%;
+}
+.fact-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 5%;
+    
+}
+.fact-card-container .card{
+    margin-bottom: 5%;
 }
 }

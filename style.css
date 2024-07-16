@@ -103,4 +103,45 @@ main{
     color: gray;
     margin: 10px;
 }
+/* Fact style */
+.facts{
+        /* max-width: 90%;
+        margin: 3% auto; */
+}
+.facts .section-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 2%;
+}
+.fact-description{
+    font-size: 1.25rem;
+    margin-bottom: 5%;
+    width: 60%;
+}
 
+
+.fact-card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+}
+.fact-card-container .card{
+
+    border: 1.5px solid orange;
+    border-radius: 8px;
+    padding: 50px;
+    text-align: center;
+    margin-right: 20px;
+
+}
+.fact-card-container .card-stats{
+
+    font-size: 2.8rem;
+    color: #424242;
+    margin: 20px;
+}
+.fact-card-container .card-title{
+    font-weight: 800;
+    color: rgb(36, 27, 27);
+    font-size: 1rem;
+}
