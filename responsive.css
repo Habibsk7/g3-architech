@@ -30,6 +30,20 @@
         padding: 0 50px 0 75px;
     }
 
+    .features{
+        flex-direction: column;
+        margin: 10%;
+        
+    }
+    .feature-img{
+        width: 100%;
+    }
+    .ten-years-badge{
+        bottom: 25px;
+        right: 25px;
+    }
+    
+
     /* fact responsive for smaller device */
     .facts{
         max-width: 80%;
@@ -74,6 +88,22 @@ nav{
     flex-direction: column;
     padding: 0 100px;
 }
+
+/* features */
+
+.features{
+    flex-direction: column;
+    margin: 10%;
+    
+}
+.feature-img{
+    width: 100%;
+}
+.ten-years-badge{
+    bottom: 50px;
+    right: 50px;
+}
+
 
 /* fact for medium */
 .facts{
