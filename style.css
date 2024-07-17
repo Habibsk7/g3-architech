@@ -108,15 +108,14 @@ main{
         /* max-width: 90%;
         margin: 3% auto; */
 }
-.facts .section-title{
+.section-title{
     font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 2%;
 }
-.fact-description{
+.fact-description , .section-desc{
     font-size: 1.25rem;
     margin-bottom: 5%;
-    width: 60%;
 }
 
 
@@ -144,4 +143,17 @@ main{
     font-weight: 800;
     color: rgb(36, 27, 27);
     font-size: 1rem;
+
 }
+
+.sponsors{
+    text-align: center;
+    padding: 50px 0;
+
+}
+.sponsors-img{
+    display: flex;
+    justify-content: space-between;
+
+}
+

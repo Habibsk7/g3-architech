@@ -43,6 +43,17 @@
     }
     .fact-card-container .card{
         margin-bottom: 5%;
+
+    }
+
+    .sponsors-img{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .sponsors-img img{
+        margin-bottom: 10px;
     }
 
 
@@ -76,4 +87,13 @@ nav{
 .fact-card-container .card{
     margin-bottom: 5%;
 }
+.sponsors-img {
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.sponsors-img > img{
+    padding: 20px 30px;
+}
+
 }
